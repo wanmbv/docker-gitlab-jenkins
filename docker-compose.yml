@@ -1,0 +1,32 @@
+version: '3'
+services:
+ gitlab:
+  image: gitlab/gitlab-ce
+  hostname: gitlab.wxz.com
+  ports:
+   - "443:443"
+   - "80:80"
+   - "8022:22"
+  container_name: gitlab
+  restart: always
+  volumes:
+   - ~/gitlab/config:/etc/gitlab
+   - ~/gitlab/logs:/var/log/gitlab
+   - ~/gitlab/data:/var/opt/gitlab
+  networks:
+   - di  
+ jenkins:
+  image: jenkinsci/jenkins
+  ports:
+   - "8080:8080"
+   - "50000:5000"
+  container_name: jenkins
+  networks:
+   - di
+  user: root
+  volumes:
+   - ~/jenkins:/var/jenkins_home
+   - /usr/local/maven:/usr/local/maven
+   - /usr/local/jdk8:/usr/local/jdk8
+networks:
+ di:
