@@ -8,3 +8,10 @@
 
 + [jenkins](https://jenkins.io/)
 
+![structure](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/structure.jpg)
+
+### docker
+[安装](https://github.com/wanmbv/docker_practice/blob/master/install/centos.md)
+
+### gitlab and jenkins
+安装docker后，gitlab和jenkins可以选择docker部署，本文采用[docker compose部署]()
