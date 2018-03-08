@@ -21,3 +21,5 @@ jenkins首次登陆密码可以通过下面的命令查看
     docker logs jenkins
  
 登陆后根据提示安装所需插件（maven,git,ssh等）
+在全局配置中配置jdk和maven等
+![全局配置](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE%E5%B7%A5%E5%85%B7.jpg)
