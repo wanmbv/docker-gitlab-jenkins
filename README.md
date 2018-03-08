@@ -38,3 +38,14 @@ jenkins首次登陆密码可以通过下面的命令查看：
 选择创建maven项目。
 
 ![create-project](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/create-project.jpg)
+
+#### 项目配置
+
++ 源码管理
+![源码配置]()
+
++ 构建触发
+![自动构建触发]()
+
++ 远程构建
+![远程构建]()
