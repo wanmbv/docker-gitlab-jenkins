@@ -52,3 +52,13 @@ jenkins首次登陆密码可以通过下面的命令查看：
 + 远程构建
 
 ![远程构建](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/%E8%BF%9C%E7%A8%8B%E6%9E%84%E5%BB%BA.jpg)
+
+## 问题
+Q: 项目源码配置时，在gitlab中正确配置ssh public key后，发现在jenkins中还是无法远程clone gitlab上的project。
+A: jenkins和gitlab都是在docker容器中部署的，且给gitlab服务还映射了hostname，虽然在外界可以通过宿主机ip+对应port访问服务，
+   但其实这些都是通过宿主机netfilter完成的，jenkins和gitlab容器启动时，会被分配自己的ip地址，所以jenkins想远程clone gitlab上
+   源码时，要么在jenkins hosts中配置gitlab的ip映射、要么通过gitlab真实ip clone。
+
+Q: docker build自动构建后的project时，无法COPY或是ADD项目jar文件。
+A: 原因是没有完全理解COPY或是ADD操作所对应的context，docker构建镜像时，会将docker上下文中的所有文件上传到镜像临时目录下，
+   directory中的文件，会被提取放到和directory同级目录下。
