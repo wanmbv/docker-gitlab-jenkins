@@ -14,4 +14,4 @@
 [安装](https://github.com/wanmbv/docker_practice/blob/master/install/centos.md)
 
 ### gitlab and jenkins
-安装docker后，gitlab和jenkins可以选择docker部署，本次实施过程采用docker compose部署
+安装docker后，gitlab和jenkins可以选择docker部署，本文采用[docker compose部署]()
