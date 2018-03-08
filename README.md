@@ -11,3 +11,4 @@
 ![structure](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/structure.jpg)
 
 ### docker
+[安装](https://github.com/wanmbv/docker_practice/blob/master/install/centos.md)
