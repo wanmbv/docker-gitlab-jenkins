@@ -17,4 +17,5 @@
 安装docker后，gitlab和jenkins可以选择docker部署，本文采用[docker compose部署](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/docker-compose.yml)
 
 jenkins的密码可以通过下面的命令查看
-  docker logs jenkins
+
+    docker logs jenkins
