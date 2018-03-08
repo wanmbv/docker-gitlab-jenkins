@@ -1,6 +1,6 @@
 # CI/CD
 本文记录一次持续集成、持续部署实施过程。
-### 依赖
+## 依赖
 
 + [docker](https://www.docker.com/)
 
@@ -10,7 +10,7 @@
 
 ![structure](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/structure.jpg)
 
-### docker
+## docker
 [安装](https://github.com/wanmbv/docker_practice/blob/master/install/centos.md)
 
 ### gitlab and jenkins
@@ -37,4 +37,4 @@ jenkins首次登陆密码可以通过下面的命令查看：
 
 选择创建maven项目。
 
-![create-project]()
+![create-project](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/create-project.jpg)
