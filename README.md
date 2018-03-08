@@ -8,3 +8,4 @@
 
 + [jenkins](https://jenkins.io/)
 
+![structure](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/structure.jpg)
