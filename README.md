@@ -42,10 +42,13 @@ jenkins首次登陆密码可以通过下面的命令查看：
 #### 项目配置
 
 + 源码管理
-![源码配置]()
+
+![源码配置](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE.jpg)
 
 + 构建触发
-![自动构建触发]()
+
+![自动构建触发](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/%E8%87%AA%E5%8A%A8%E6%9E%84%E5%BB%BA%E8%A7%A6%E5%8F%91.jpg)
 
 + 远程构建
-![远程构建]()
+
+![远程构建](https://github.com/wanmbv/docker-gitlab-jenkins/blob/master/%E8%BF%9C%E7%A8%8B%E6%9E%84%E5%BB%BA.jpg)
